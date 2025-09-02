@@ -27,7 +27,7 @@ chain = agent_executor
 def main():
     result = chain.invoke(
         input={
-            "input": "search for 3 job postings for ai engineers using langchain on linkedin and list their details"
+            "input": "Task: Search LinkedIn for 3 job postings for \"AI Engineer\" roles that mention LangChain and show the job descriptions.",
         }
     )
     print(result)
